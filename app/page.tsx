@@ -494,16 +494,16 @@ export default function PortfolioPage() {
             </p>
           </div>
           <div className="flex gap-4">
-            <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors">
+            <Link href="https://www.instagram.com/_sangitapa_/" className="text-muted-foreground hover:text-foreground transition-colors">
               Instagram
             </Link>
-            <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors">
-              Dribbble
+            <Link href="https://facebook.com/sangita.paul.90663894/" className="text-muted-foreground hover:text-foreground transition-colors">
+              Facebook
             </Link>
-            <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors">
+            <Link href="https://www.behance.net/sangeetapaul/" className="text-muted-foreground hover:text-foreground transition-colors">
               Behance
             </Link>
-            <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors">
+            <Link href="https://www.linkedin.com/in/sangeetapaul/" className="text-muted-foreground hover:text-foreground transition-colors">
               LinkedIn
             </Link>
           </div>
