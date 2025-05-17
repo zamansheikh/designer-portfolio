@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button"
 import { notFound } from "next/navigation"
 
 // Import the projects data
-import { projects } from "@/app/page"
+import { projects } from "@/app/project-data"
 
 interface ProjectPageProps {
     params: {
