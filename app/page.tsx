@@ -122,6 +122,7 @@ export default function PortfolioPage() {
               <span className="gradient-text text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">
                 Creative
               </span>
+
               <AnimatedText
                 text=" Visions To Life Through Design"
                 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl inline"
