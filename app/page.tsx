@@ -188,12 +188,12 @@ export default function PortfolioPage() {
               <div className="flex-1 space-y-6">
                 <div className="inline-block rounded-full bg-primary/10 px-3 py-1 text-sm text-primary">About Me</div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
-                  A passionate designer with 8+ years of experience
+                  A passionate designer with 2+ years of experience
                 </h2>
                 <p className="text-muted-foreground">
-                  I'm a graphic designer specializing in brand identity, print design, and digital media. My approach
-                  combines creativity with strategic thinking to deliver designs that not only look great but also
-                  achieve business objectives.
+                  I’m Songeeta Paul, a self-taught graphic designer with a deep love for creativity and design. I enjoy creating visuals for social media, posters, brochures, and branding that are both eye-catching and meaningful.
+
+                  I’ve gained hands-on experience by exploring design tools like Photoshop, Illustrator, Figma, and Canva, and I’m always eager to learn and grow as a designer. For me, design is not just work—it’s a passion that drives me every day.
                 </p>
                 <div className="grid grid-cols-2 gap-4">
                   <div className="space-y-2">
@@ -204,15 +204,15 @@ export default function PortfolioPage() {
                   </div>
                   <div className="space-y-2">
                     <h3 className="font-bold">Experience</h3>
-                    <p className="text-sm text-muted-foreground">Senior Designer at Creative Agency, 2018-Present</p>
+                    <p className="text-sm text-muted-foreground">Graphics Designer at Alpha Tech Business</p>
                   </div>
                   <div className="space-y-2">
                     <h3 className="font-bold">Expertise</h3>
-                    <p className="text-sm text-muted-foreground">Brand Identity, UI/UX, Print, Illustration</p>
+                    <p className="text-sm text-muted-foreground">Brand Identity, Design, Illustration</p>
                   </div>
                   <div className="space-y-2">
                     <h3 className="font-bold">Software</h3>
-                    <p className="text-sm text-muted-foreground">Adobe Creative Suite, Figma, Sketch</p>
+                    <p className="text-sm text-muted-foreground">Adobe Creative Suite, Canva, Sketch</p>
                   </div>
                 </div>
                 <Button asChild>
@@ -408,7 +408,7 @@ export default function PortfolioPage() {
                     </div>
                     <div>
                       <h3 className="font-bold">Email</h3>
-                      <p className="text-muted-foreground">hello@songeetapaul.com</p>
+                      <p className="text-muted-foreground">sangitapal148@gmail.com</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-4">
@@ -417,7 +417,7 @@ export default function PortfolioPage() {
                     </div>
                     <div>
                       <h3 className="font-bold">Phone</h3>
-                      <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                      <p className="text-muted-foreground">+8801927852747</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-4">
@@ -426,7 +426,7 @@ export default function PortfolioPage() {
                     </div>
                     <div>
                       <h3 className="font-bold">Location</h3>
-                      <p className="text-muted-foreground">Brahmanbaria, Bangladesh</p>
+                      <p className="text-muted-foreground">Dhaka, Bangladesh</p>
                     </div>
                   </div>
                 </div>
@@ -518,7 +518,7 @@ export default function PortfolioPage() {
 // Services data
 const services = [
   {
-    title: "Brand Identity",
+    title: "Website Graphics",
     description:
       "Comprehensive branding solutions including logo design, color palettes, typography, and brand guidelines.",
     icon: (
@@ -550,7 +550,7 @@ const services = [
     ),
   },
   {
-    title: "Print Design",
+    title: "Poster Design",
     description:
       "From business cards to billboards, creating impactful print materials that communicate your message effectively.",
     icon: (
@@ -578,9 +578,9 @@ const services = [
     ),
   },
   {
-    title: "UI/UX Design",
+    title: "Logo Design",
     description:
-      "Creating intuitive, user-friendly interfaces for websites and applications that enhance user experience.",
+      "Creating intuitive, user-friendly logos that effectively represent your brand identity.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -626,8 +626,8 @@ const services = [
     ),
   },
   {
-    title: "Packaging Design",
-    description: "Eye-catching packaging solutions that protect your product and enhance shelf appeal.",
+    title: "Flyer Design",
+    description: "Eye-catching flyer designs that effectively communicate your message.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -648,8 +648,8 @@ const services = [
     ),
   },
   {
-    title: "Motion Graphics",
-    description: "Animated graphics and visual effects that bring your brand to life and engage your audience.",
+    title: "Social Media Content",
+    description: "Engaging social media graphics and content that enhance your online presence.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"

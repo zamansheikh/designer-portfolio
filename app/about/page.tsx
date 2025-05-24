@@ -10,39 +10,39 @@ import { Button } from "@/components/ui/button"
 const skills = [
     {
         category: "Design",
-        items: ["Brand Identity", "UI/UX Design", "Print Design", "Typography", "Color Theory"]
+        items: ["Brand Identity", "Graphics Design", "Color Theory", "Flyer Design", "Poster Design", "Logo Design", "Social Media Content"]
     },
     {
         category: "Software",
-        items: ["Adobe Creative Suite", "Figma", "Sketch", "InVision", "Principle"]
+        items: ["Adobe Creative Suite", "Canva", "Sketch"]
     },
     {
         category: "Additional Skills",
-        items: ["Project Management", "Client Communication", "Team Leadership", "Problem Solving"]
+        items: ["Project Management", "Client Communication", "Problem Solving"]
     }
 ]
 
 const experience = [
     {
-        title: "Senior Designer",
-        company: "Creative Agency",
-        period: "2018 - Present",
+        title: "Graphics Designer",
+        company: "Alpha Tech Business",
+        period: "2024 - Present",
         description: "Lead designer responsible for creating and implementing visual design solutions for various clients across different industries.",
         achievements: [
-            "Successfully led and delivered over 50 branding projects",
+            "Successfully led and delivered over 12 branding projects",
             "Mentored junior designers and improved team productivity by 30%",
             "Implemented new design system that reduced project delivery time by 40%"
         ]
     },
     {
-        title: "Visual Designer",
-        company: "Design Studio",
-        period: "2015 - 2018",
+        title: "Logo and Branding Specialist",
+        company: "DeCoders Family",
+        period: "2022 - 2024",
         description: "Collaborated with creative team to develop visual solutions for digital and print media.",
         achievements: [
-            "Created award-winning campaign designs for major clients",
             "Increased client satisfaction rate to 95%",
-            "Streamlined design process through template creation"
+            "Streamlined design process through template creation",
+            "Developed brand guidelines for 3+ startups"
         ]
     }
 ]
@@ -105,10 +105,10 @@ export default function Page() {
                                 About Me
                             </div>
                             <h1 className="text-3xl md:text-4xl font-bold tracking-tighter sm:text-5xl">
-                                Passionate Designer & Visual Artist
+                                Passionate Graphics Designer
                             </h1>
                             <p className="text-base md:text-lg text-muted-foreground">
-                                With over 8 years of experience in graphic design and visual arts, I've dedicated my career to creating impactful visual experiences that help brands connect with their audience and stand out in today's digital landscape.
+                                With over 2 years of experience in graphic design and visual arts, I've dedicated my career to creating impactful visual experiences that help brands connect with their audience and stand out in today's digital landscape.
                             </p>
                             <Button size="lg" variant="outline" className="w-full sm:w-auto" asChild>
                                 <Link href="#" download>
@@ -209,9 +209,9 @@ export default function Page() {
                             <div className="w-full md:flex-1">
                                 <div className="space-y-4">
                                     {[
-                                        { icon: Mail, title: "Email", value: "hello@songeetapaul.com" },
-                                        { icon: Phone, title: "Phone", value: "+1 (555) 123-4567" },
-                                        { icon: MapPin, title: "Location", value: "Brahmanbaria, Bangladesh" }
+                                        { icon: Mail, title: "Email", value: "sangitapal148@gmail.com" },
+                                        { icon: Phone, title: "Phone", value: "+8801927852747" },
+                                        { icon: MapPin, title: "Location", value: "Dhaka, Bangladesh" }
                                     ].map((contact, index) => (
                                         <div key={index} className="flex items-center gap-4">
                                             <div className="flex h-8 w-8 md:h-10 md:w-10 items-center justify-center rounded-full bg-primary/10">
