@@ -92,7 +92,7 @@ export default function Page() {
                         <div className="w-full md:flex-1">
                             <div className="relative h-[300px] sm:h-[400px] md:h-[500px] w-full overflow-hidden rounded-lg border-8 border-primary/20">
                                 <Image
-                                    src="/avater2.jpg?height=1000&width=800"
+                                    src="/avater3.jpg?height=1000&width=800"
                                     alt="Songeeta Paul"
                                     fill
                                     className="object-cover"

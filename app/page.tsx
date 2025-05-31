@@ -15,6 +15,7 @@ import { AnimatedGradientBackground } from "@/components/animated-gradient-backg
 import { AnimatedText } from "@/components/animated-text"
 import { ProjectCard } from "@/components/project-card"
 import { projects } from "@/app/project-data"
+import { services, testimonials } from "@/app/site-data"
 
 export default function PortfolioPage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -177,7 +178,7 @@ export default function PortfolioPage() {
               <div className="flex-1 w-full max-w-xs sm:max-w-sm md:max-w-full mx-auto">
                 <div className="relative h-48 sm:h-64 md:h-[500px] w-full overflow-hidden rounded-lg">
                   <Image
-                    src="/aveter1.jpg"
+                    src="/avater1.jpg"
                     alt="Designer at work"
                     fill
                     sizes="(max-width: 768px) 100vw, 50vw"
@@ -514,180 +515,3 @@ export default function PortfolioPage() {
     </div>
   )
 }
-
-// Services data
-const services = [
-  {
-    title: "Website Graphics",
-    description:
-      "Comprehensive branding solutions including logo design, color palettes, typography, and brand guidelines.",
-    icon: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        className="text-primary"
-      >
-        <path d="M5 3a2 2 0 0 0-2 2" />
-        <path d="M19 3a2 2 0 0 1 2 2" />
-        <path d="M21 19a2 2 0 0 1-2 2" />
-        <path d="M5 21a2 2 0 0 1-2-2" />
-        <path d="M9 3h1" />
-        <path d="M9 21h1" />
-        <path d="M14 3h1" />
-        <path d="M14 21h1" />
-        <path d="M3 9v1" />
-        <path d="M21 9v1" />
-        <path d="M3 14v1" />
-        <path d="M21 14v1" />
-      </svg>
-    ),
-  },
-  {
-    title: "Poster Design",
-    description:
-      "From business cards to billboards, creating impactful print materials that communicate your message effectively.",
-    icon: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        className="text-primary"
-      >
-        <path d="M6 2v6h.01" />
-        <path d="M6 16h.01" />
-        <path d="M2 6h12" />
-        <path d="M8 10v8" />
-        <path d="M2 10h12" />
-        <path d="M18 12V6h2a2 2 0 0 1 2 2v4" />
-        <path d="M18 18h4" />
-        <path d="M18 12a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2h-4z" />
-      </svg>
-    ),
-  },
-  {
-    title: "Logo Design",
-    description:
-      "Creating intuitive, user-friendly logos that effectively represent your brand identity.",
-    icon: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        className="text-primary"
-      >
-        <rect width="18" height="18" x="3" y="3" rx="2" ry="2" />
-        <path d="M7 7h10" />
-        <path d="M7 12h10" />
-        <path d="M7 17h10" />
-      </svg>
-    ),
-  },
-  {
-    title: "Illustration",
-    description:
-      "Custom illustrations and artwork that bring your ideas to life and add a unique visual element to your brand.",
-    icon: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        className="text-primary"
-      >
-        <circle cx="12" cy="12" r="10" />
-        <path d="M8 14s1.5 2 4 2 4-2 4-2" />
-        <line x1="9" x2="9.01" y1="9" y2="9" />
-        <line x1="15" x2="15.01" y1="9" y2="9" />
-      </svg>
-    ),
-  },
-  {
-    title: "Flyer Design",
-    description: "Eye-catching flyer designs that effectively communicate your message.",
-    icon: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        className="text-primary"
-      >
-        <path d="M3 9h18v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9Z" />
-        <path d="m3 9 2.45-4.9A2 2 0 0 1 7.24 3h9.52a2 2 0 0 1 1.8 1.1L21 9" />
-        <path d="M12 3v6" />
-      </svg>
-    ),
-  },
-  {
-    title: "Social Media Content",
-    description: "Engaging social media graphics and content that enhance your online presence.",
-    icon: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        className="text-primary"
-      >
-        <path d="m22 8-6 4 6 4V8Z" />
-        <rect width="14" height="12" x="2" y="6" rx="2" ry="2" />
-      </svg>
-    ),
-  },
-]
-
-// Testimonials data
-const testimonials = [
-  {
-    name: "Sarah Johnson",
-    position: "Marketing Director, TechCorp",
-    avatar: "/placeholder.svg?height=100&width=100",
-    text: "Working with Songeeta was a game-changer for our brand. The designs perfectly captured our vision while bringing fresh ideas to the table.",
-  },
-  {
-    name: "Michael Chen",
-    position: "Founder, Startup Hub",
-    avatar: "/placeholder.svg?height=100&width=100",
-    text: "The branding package exceeded our expectations. Our startup now has a professional, cohesive look that has helped us attract investors.",
-  },
-  {
-    name: "Emily Rodriguez",
-    position: "Creative Director, Design Agency",
-    avatar: "/placeholder.svg?height=100&width=100",
-    text: "Songeeta's attention to detail and creative problem-solving made our collaboration seamless. The illustrations created for our campaign were stunning.",
-  },
-]
