@@ -160,7 +160,7 @@ export const testimonials = [
   {
     name: "Rashid Ahmed",
     position: "Owner, Dhaka Food Corner",
-    avatar: "/placeholder.svg?height=100&width=100",
+    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
     text: "Songeeta created an amazing logo and poster design for my restaurant. Her creativity and understanding of my vision was outstanding. The designs helped attract more customers to my business. Highly recommended!",
   },
   {
@@ -172,19 +172,19 @@ export const testimonials = [
   {
     name: "Mohammad Hasan",
     position: "Marketing Manager, Tech Solutions BD",
-    avatar: "/placeholder.svg?height=100&width=100",
+    avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
     text: "Working with Songeeta was a pleasure. She designed our company brochure and business cards with such professionalism. Her attention to detail and quick turnaround time impressed our entire team. Great work!",
   },
   {
     name: "Priya Sharma",
     position: "Event Organizer, Celebration Events",
-    avatar: "/placeholder.svg?height=100&width=100",
+    avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
     text: "Songeeta designed beautiful invitation cards and event posters for our wedding planning business. Her creative ideas and ability to understand client needs made the collaboration smooth and successful.",
   },
   {
     name: "Karim Rahman",
     position: "Director, Green Valley School",
-    avatar: "/placeholder.svg?height=100&width=100",
+    avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
     text: "We hired Songeeta to design our school's annual report and promotional materials. She created clean, professional designs that perfectly communicated our school's values. Very satisfied with her work!",
   },
 ]
